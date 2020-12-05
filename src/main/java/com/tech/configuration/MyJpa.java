@@ -25,7 +25,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @PropertySource({ "classpath:database.properties" })
 @EnableJpaRepositories(basePackages = "com.tech.repo")
-@ComponentScans(value = { @ComponentScan("com.tech.repo"), @ComponentScan("com.tech.helper"), @ComponentScan("com.tech.configuration") })
+@ComponentScans(value = { @ComponentScan("com.tech.repo"), @ComponentScan("com.tech.helper"),  })
 public class MyJpa {
 
 	@Autowired
