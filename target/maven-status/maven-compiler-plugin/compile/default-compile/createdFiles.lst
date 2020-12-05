@@ -1,0 +1,8 @@
+com\tech\configuration\MyJpa.class
+com\tech\configuration\MyContext.class
+com\tech\model\MyModel.class
+com\tech\configuration\MyDispatcher.class
+com\tech\repo\MyRepo.class
+com\tech\helper\MyHelperImplimentation.class
+com\tech\controller\MyController.class
+com\tech\helper\MyHelper.class
