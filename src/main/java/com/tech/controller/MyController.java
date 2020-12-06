@@ -2,6 +2,7 @@ package com.tech.controller;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,6 +15,8 @@ import com.tech.repo.MyRepo;
 @RestController
 public class MyController {
 
+	private static final Logger logger = Logger.getLogger(MyController.class);
+	
 	@Autowired
 	private MyRepo myRepo;
 	

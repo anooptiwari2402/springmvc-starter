@@ -1,5 +1,8 @@
 package com.tech.configuration;
 
+import javax.servlet.Filter;
+
+
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import com.tech.configuration.MyContext;
@@ -16,6 +19,7 @@ public class MyDispatcher extends AbstractAnnotationConfigDispatcherServletIniti
 	protected Class<?>[] getServletConfigClasses() {
 		return new Class[] {MyContext.class};
 	}
+
 
 	@Override
 	protected String[] getServletMappings() {
